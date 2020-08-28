@@ -1,0 +1,19 @@
+{
+  "name": "dashboard_login",
+  "version": "1.0.0",
+  "description": "Login page for dashbord including backend logics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyung-hoon/dashboard_login.git"
+  },
+  "author": "kyunghoon, jeonghyeon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyung-hoon/dashboard_login/issues"
+  },
+  "homepage": "https://github.com/kyung-hoon/dashboard_login#readme"
+}
