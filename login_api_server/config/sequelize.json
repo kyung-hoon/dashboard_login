@@ -2,9 +2,9 @@
 {
   "development": {
     "username": "root",
-    "password": null,
+    "password": "rudgns12",
     "database": "database_development",
-    "host": "127.0.0.1",
+    "host": "192.168.35.142",
     "dialect": "mysql"
   },
   "test": {
@@ -16,9 +16,9 @@
   },
   "production": {
     "username": "root",
-    "password": null,
+    "password": "rudgns12",
     "database": "database_production",
-    "host": "127.0.0.1",
+    "host": "192.168.35.142",
     "dialect": "mysql"
-  }
+ } 
 }
