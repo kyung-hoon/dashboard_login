@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/kyung-hoon/dashboard_login#readme",
   "devDependencies": {
-    "eslint": "^7.7.0",
     "eslint-plugin-react": "^7.20.6"
   }
 }
