@@ -67,18 +67,18 @@ export default class DashBoardLoginScreen extends Component {
     const style_elBackground_outer = {
       backgroundColor: '#f6f6f6',
      };
-    const style_elText = {
+    const style_elText = { //최상단 텍스트
       fontSize: 30.4,
       color: '#040b37',
       textAlign: 'center',
      };
-    const style_elText2 = {
+    const style_elText2 = { //ID 텍스트
       fontSize: 19.0,
       color: 'rgba(0, 0, 0, 0.8500)',
       textAlign: 'left',
      };
     
-    const style_elField = {
+    const style_elField = { // id 텍스트 필드
       display: 'block',
       backgroundColor: 'white',
       paddingLeft: '1rem',
@@ -86,34 +86,35 @@ export default class DashBoardLoginScreen extends Component {
       textAlign: 'left',
       pointerEvents: 'auto',
      };
-    const style_elText3 = {
+    const style_elText3 = { //패스워드 텍스트
       fontSize: 19.0,
       color: 'rgba(0, 0, 0, 0.8500)',
       textAlign: 'left',
      };
     
-    const style_elField2 = {
+    const style_elField2 = { //패스워드 텍스트 필드
       display: 'block',
       backgroundColor: 'white',
       paddingLeft: '1rem',
       boxSizing: 'border-box', // ensures padding won't expand element's outer size
       textAlign: 'left',
       pointerEvents: 'auto',
+      WebkitTextSecurity: 'disc'
      };
     
-    const style_elButton = {
+    const style_elButton = { //로그인 버튼
       display: 'block',
       color: 'white',
       textAlign: 'center',
      };
-    const style_elText4 = {
+    const style_elText4 = { //sign in 
       fontSize: 15.2,
       color: 'rgba(0, 0, 0, 0.8500)',
       textAlign: 'left',
       cursor: 'pointer',
       pointerEvents: 'auto',
      };
-    const style_elText5 = {
+    const style_elText5 = { //forgot password?
       color: 'rgba(0, 0, 0, 0.8500)',
       textAlign: 'left',
       cursor: 'pointer',
