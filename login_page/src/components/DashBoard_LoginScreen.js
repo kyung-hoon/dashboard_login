@@ -47,6 +47,16 @@ export default class DashBoardLoginScreen extends Component {
     this.props.appActions.goToScreen('findpassword', { transitionId: 'fadeIn' });
   
   }
+
+  onClick_Login=()=>{ // 로그인 버튼 눌렀을 떄 api 요청 로직 작성 AXIOS 사용
+    console.log('hello!');
+  }
+
+  onKeyEnterPress = e =>{ //
+    if(e.key === 'Enter'){
+      this.onClick_Login();
+    }
+  }
   
   
   render() {
@@ -153,7 +163,7 @@ export default class DashBoardLoginScreen extends Component {
           </div>
           
           <div className="elField2">
-            <input className="baseFont" style={style_elField2} type="text" placeholder={this.props.locStrings.dashboard_login_field2_856872} onChange={this.textInputChanged_field2} value={this.state.field2}  />
+            <input className="baseFont" style={style_elField2} type="text" placeholder={this.props.locStrings.dashboard_login_field2_856872} onChange={this.textInputChanged_field2} value={this.state.field2} onKeyPress= {this.onKeyEnterPress} />
           </div>
           
           <div className="flowRow flowRow_DashBoard_LoginScreen_elButton_20826">
